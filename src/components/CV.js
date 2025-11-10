@@ -5,8 +5,8 @@ const CV = () => {
   const { t, language } = useLanguage();
 
   const cvLinks = {
-    en: 'https://rafiqyassine.github.io/portfolio/cv/Yassine_Rafiq_en.pdf',
-    fr: 'https://rafiqyassine.github.io/portfolio/cv/Yassine_Rafiq_fr.pdf',
+    en: '/cv/Yassine_Rafiq_en.pdf',
+    fr: '/cv/Yassine_Rafiq_fr.pdf',
   };
 
   const handleDownload = () => {
