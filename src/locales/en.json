@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "CV"
+  },
+  "hero": {
+    "title": "Hi, I'm Yassine Rafiq",
+    "subtitle": "Junior Web Developer",
+    "description": "I create beautiful and functional websites using modern technologies. Passionate about coding and always learning new things.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "heading": "Curious Developer & Problem Solver",
+    "text1": "Hello! I'm a passionate junior web developer with a strong foundation in modern web technologies. I love turning ideas into reality through code and creating amazing user experiences.",
+    "text2": "When I'm not coding, you can find me learning new technologies, contributing to open-source projects, or exploring the latest trends in web development.",
+    "text3": "I'm currently looking for opportunities to work on exciting projects and collaborate with amazing people.",
+    "workTogether": "Let's Work Together"
+  },
+  "skills": {
+    "title": "My Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
+  },
+  "projects": {
+    "title": "My Projects",
+    "ecommerce": {
+      "title": "E-Commerce Website",
+      "description": "A fully responsive e-commerce platform with shopping cart functionality and product filtering."
+    },
+    "weather": {
+      "title": "Weather App",
+      "description": "Real-time weather application with location detection and 5-day forecast."
+    },
+    "taskManager": {
+      "title": "Task Manager",
+      "description": "A drag-and-drop task management application with local storage persistence."
+    },
+    "portfolio": {
+      "title": "Portfolio Website",
+      "description": "A modern, responsive portfolio website showcasing projects and skills."
+    },
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "cv": {
+    "title": "My CV",
+    "download": "Download CV",
+    "education": "Education",
+    "experience": "Experience",
+    "languages": "Languages",
+    "educationDetails": {
+      "degree": "Web Development Bootcamp",
+      "school": "Online Platform",
+      "year": "2024",
+      "description": "Intensive training in modern web technologies including HTML, CSS, JavaScript, React, and Node.js."
+    },
+    "experienceDetails": {
+      "job1": {
+        "title": "Frontend Developer Intern",
+        "company": "Tech Company",
+        "period": "2023 - 2024",
+        "description": "Developed responsive web applications and collaborated with the design team to implement user interfaces."
+      },
+      "job2": {
+        "title": "Freelance Web Developer",
+        "company": "Self-Employed",
+        "period": "2022 - Present",
+        "description": "Created websites for small businesses and personal projects using modern web technologies."
+      }
+    },
+    "languagesList": {
+      "arabic": "Arabic - Native",
+      "french": "French - Fluent",
+      "english": "English - Intermediate"
+    }
+  },
+ "contact": {
+    "title": "Contact Me",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "getInTouch": "Get In Touch",
+    "messageText": "Feel free to reach out to me via email, phone, or LinkedIn. I'm always open to discussing new opportunities and interesting projects.",
+    "sendEmail": "Send Email",
+    "connectLinkedIn": "Connect on LinkedIn"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "builtWith": "Built with React and lots of ☕"
+  }
+}
