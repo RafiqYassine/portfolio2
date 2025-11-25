@@ -24,14 +24,14 @@ const Header = () => {
         setIsMobileMenuOpen(false);
       }
     };
-    
+
     if (isMobileMenuOpen) {
       document.addEventListener('click', handleClickOutside);
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
     }
-    
+
     return () => {
       document.removeEventListener('click', handleClickOutside);
       document.body.style.overflow = '';
@@ -42,7 +42,7 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <nav className="nav">
         <a href="#home" className="logo" onClick={handleNavClick}>Yassine Rafiq</a>
-        <button 
+        <button
           className="mobile-menu-toggle"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle menu"
@@ -57,8 +57,8 @@ const Header = () => {
           <li><a href="#cv" onClick={handleNavClick}>{t('nav.cv')}</a></li>
           <li><a href="#contact" onClick={handleNavClick}>{t('nav.contact')}</a></li>
           <li>
-            <button 
-              onClick={toggleLanguage} 
+            <button
+              onClick={toggleLanguage}
               className="language-btn"
               aria-label={language === 'en' ? 'Switch to French' : 'Passer en Anglais'}
             >

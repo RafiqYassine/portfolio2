@@ -15,13 +15,14 @@
     "getInTouch": "Get In Touch"
   },
   "about": {
-    "title": "About Me",
-    "heading": "Curious Developer & Problem Solver",
-    "text1": "Hello! I'm a passionate junior web developer with a strong foundation in modern web technologies. I love turning ideas into reality through code and creating amazing user experiences.",
-    "text2": "When I'm not coding, you can find me learning new technologies, contributing to open-source projects, or exploring the latest trends in web development.",
-    "text3": "I'm currently looking for opportunities to work on exciting projects and collaborate with amazing people.",
-    "workTogether": "Let's Work Together"
-  },
+  "title": "About Me",
+  "heading": "Curious Developer & Problem Solver",
+  "text1": "Hello! I'm a passionate junior full-stack web developer, graduated in Digital Development – Full Stack Web Option. I love turning ideas into real applications by building modern, efficient, and user-focused web solutions.",
+  "text2": "Through academic projects and internships, I gained strong front-end and back-end skills using technologies like React, Laravel, Node.js, and MySQL. I enjoy learning new tools, improving my skills, and taking on technical challenges.",
+  "text3": "I am currently looking for opportunities to work on exciting projects and collaborate with great teams.",
+  "workTogether": "Let's Work Together"
+}
+,
   "skills": {
     "title": "My Skills",
     "frontend": "Frontend",
@@ -30,24 +31,29 @@
   },
   "projects": {
     "title": "My Projects",
-    "ecommerce": {
-      "title": "E-Commerce Website",
-      "description": "A fully responsive e-commerce platform with shopping cart functionality and product filtering."
-    },
-    "weather": {
-      "title": "Weather App",
-      "description": "Real-time weather application with location detection and 5-day forecast."
-    },
-    "taskManager": {
-      "title": "Task Manager",
-      "description": "A drag-and-drop task management application with local storage persistence."
-    },
-    "portfolio": {
-      "title": "Portfolio Website",
-      "description": "A modern, responsive portfolio website showcasing projects and skills."
-    },
+    "description": "Description",
+    "technologies": "Technologies",
     "liveDemo": "Live Demo",
-    "sourceCode": "Source Code"
+    "sourceCode": "Source Code",
+    "viewProject": "View Project",
+    "Didactiques": {
+      "title": "Didactic Resources Management Platform",
+      "description": "A modern React & Laravel platform that centralizes pedagogical resources and communication for training centers. Includes role-based dashboards, announcements, resource sharing, and online QCM evaluations with automatic correction."
+    },
+    
+    "Microservices": {
+      "title": "Plant & Product Management Microservices",
+      "description": "A lightweight microservices project built with Node.js and Docker. It includes separate services for authentication, products, plants, and a client app. Each service runs independently and communicates through internal Docker networking. The plant service also consumes a public API to fetch real plant information."
+    },
+    "Plannings": {
+      "title": "Medical Scheduling & Automated Reminder System",
+      "description": "This project is a web application built for the External Consultation Center of CHU Ibn Tofail. It enables the administrator to manage doctors’ schedules, automatically send personalized reminders before appointments, and generate PDF documents from a digital form. The system improves internal coordination and reduces missed consultations."
+    },
+    "Automated": {
+      "title": "Google Form Automated PDF Generator (Google Apps Script + TypeScript)",
+      "description": "Automated Google Form workflow that collects user responses, generates a personalized PDF, sends it by email, and stores a copy in Google Drive. Built with Google Apps Script and TypeScript."
+    }
+
   },
   "cv": {
     "title": "My CV",
@@ -78,7 +84,7 @@
     "languagesList": {
       "arabic": "Arabic - Native",
       "french": "French - Fluent",
-      "english": "English - Intermediate"
+      "english": "English - Fluent"
     }
   },
  "contact": {

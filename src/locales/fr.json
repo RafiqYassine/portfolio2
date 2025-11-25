@@ -15,13 +15,14 @@
     "getInTouch": "Me Contacter"
   },
   "about": {
-    "title": "À Propos",
-    "heading": "Développeur Curieux & Résolveur de Problèmes",
-    "text1": "Bonjour ! Je suis un développeur web junior passionné avec une solide base dans les technologies web modernes. J'adore transformer les idées en réalité grâce au code et créer des expériences utilisateur exceptionnelles.",
-    "text2": "Quand je ne code pas, vous pouvez me trouver en train d'apprendre de nouvelles technologies, de contribuer à des projets open-source ou d'explorer les dernières tendances en développement web.",
-    "text3": "Je recherche actuellement des opportunités pour travailler sur des projets excitants et collaborer avec des personnes formidables.",
-    "workTogether": "Travaillons Ensemble"
-  },
+  "title": "À propos de moi",
+  "heading": "Développeur Curieux & Résolveur de Problèmes",
+  "text1": "Bonjour ! Je suis un développeur web full-stack junior passionné, diplômé en Développement Digital – Option Web Full Stack. J’aime transformer des idées en solutions concrètes en créant des applications web modernes, performantes et centrées utilisateur.",
+  "text2": "Grâce à mes projets académiques et mes stages, j’ai acquis une solide maîtrise du front-end et du back-end avec des technologies comme React, Laravel, Node.js et MySQL. J’adore apprendre de nouvelles technologies, améliorer mes compétences et relever des défis techniques.",
+  "text3": "Actuellement, je suis à la recherche d’opportunités pour travailler sur des projets stimulants et collaborer avec des équipes passionnées.",
+  "workTogether": "Travaillons Ensemble"
+}
+,
   "skills": {
     "title": "Mes Compétences",
     "frontend": "Frontend",
@@ -29,25 +30,28 @@
     "tools": "Outils"
   },
   "projects": {
-    "title": "Mes Projets",
-    "ecommerce": {
-      "title": "Site E-Commerce",
-      "description": "Une plateforme e-commerce entièrement responsive avec fonctionnalité de panier et filtrage de produits."
+    "title": "My Projects",
+    "description": "Description",
+    "technologies": "Technologies",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Code Source",
+    "viewProject": "View Project",
+    "Didactiques": {
+      "title": "Plateforme de Gestion des Ressources Didactiques",
+      "description": "Une plateforme moderne en React & Laravel qui centralise les ressources pédagogiques et la communication dans les centres de formation. Inclut des tableaux de bord par rôle, annonces, partage de ressources et tests QCM avec correction automatique."
     },
-    "weather": {
-      "title": "Application Météo",
-      "description": "Application météo en temps réel avec détection de localisation et prévisions sur 5 jours."
+    "Microservices": {
+      "title": "Microservices de Gestion des Plantes et Produits",
+      "description": "Un projet de microservices léger développé avec Node.js et Docker. Il comprend des services séparés pour l’authentification, les produits, les plantes et une application client. Chaque service fonctionne indépendamment et communique via le réseau interne Docker. Le service des plantes consomme également une API publique pour récupérer des informations réelles sur les plantes."
     },
-    "taskManager": {
-      "title": "Gestionnaire de Tâches",
-      "description": "Une application de gestion de tâches glisser-déposer avec persistance des données en stockage local."
-    },
-    "portfolio": {
-      "title": "Site Portfolio",
-      "description": "Un site portfolio moderne et responsive présentant des projets et compétences."
-    },
-    "liveDemo": "Démo Live",
-    "sourceCode": "Code Source"
+    "Plannings": {
+      "title": "Système de Gestion des Plannings Médicaux & Rappels Automatisés",
+      "description": "Ce projet consiste en une application web développée pour le Centre de Consultation Externe du CHU Ibn Tofail. Elle permet à l’administrateur de gérer les plannings des médecins, leur envoyer automatiquement des rappels personnalisés avant chaque rendez-vous, et automatiser la génération de documents PDF via un formulaire numérique. La solution améliore la coordination interne et réduit les oublis de consultations."
+    },"Automated": {
+      "title": "Générateur Automatique de PDF via Google Form (Apps Script + TypeScript)",
+      "description": "Automatisation d’un Google Form : collecte des réponses, génération d’un PDF personnalisé, envoi par email et stockage dans Google Drive. Réalisé avec Google Apps Script et TypeScript."
+    }
+
   },
   "cv": {
     "title": "Mon CV",
@@ -78,7 +82,7 @@
     "languagesList": {
       "arabic": "Arabe - Natif",
       "french": "Français - Courant",
-      "english": "Anglais - Intermédiaire"
+      "english": "Anglais - Courant"
     }
   },
   "contact": {

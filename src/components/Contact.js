@@ -18,7 +18,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3>{t('contact.email')}</h3>
-                <p>your.email@example.com</p>
+                <p>yassine.rafiq25@gmail.com</p>
               </div>
             </div>
             
@@ -28,19 +28,27 @@ const Contact = () => {
               </div>
               <div>
                 <h3>{t('contact.phone')}</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>+212 684 06 40 94</p>
               </div>
             </div>
             
             <div className="contact-item">
-              <div className="contact-icon">
-                <i className="fab fa-linkedin"></i>
-              </div>
-              <div>
-                <h3>{t('contact.linkedin')}</h3>
-                <p>linkedin.com/in/yourprofile</p>
-              </div>
-            </div>
+  <div className="contact-icon">
+    <i className="fab fa-linkedin"></i>
+  </div>
+  <div>
+    <h3>{t('contact.linkedin')}</h3>
+    <a 
+      href="https://www.linkedin.com/in/yassine-rafiq" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="contact-link"
+    >
+      linkedin.com/in/yassine-rafiq
+    </a>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

@@ -27,7 +27,7 @@ const CV = () => {
               <i className="fas fa-download"></i>
               {t('cv.download')} ({language.toUpperCase()})
             </button>
-            <button onClick={handleView} className="btn btn-secondary">
+            <button onClick={handleView} className="btn btn-primary view-btn">
               <i className="fas fa-eye"></i>
               {language === 'en' ? 'View CV' : 'Voir CV'}
             </button>
